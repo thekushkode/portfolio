@@ -111,8 +111,8 @@
 
           <!--Video source-->
           <video class="video-intro" autoplay loop muted>
-            <source src="images/portfoliovid.mp4" type="video/mp4"/>
-            <source src="images/mobileportvid.webm" type="video/webm"/>
+            <source src="images/portfoliovid.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/>
+            <source src="images/mobileportvid.webm" type='video/webm;codecs="vp8, vorbis"'/>
           </video>
 
           <!-- Mask & flexbox options-->
@@ -337,7 +337,8 @@
 
             <!-- Main heading -->
             <h3 class="h3 mb-3">Bark Avenue: Pet Resort</h3>
-            <p>Local dog daycare that was hurting from Covid-19 fallout. They treat my dogs very well and I wanted to return the
+            <p>Local dog daycare that was hurting from Covid-19 fallout. They treat my dogs very well and I wanted to
+              return the
               favor.</p>
             <!-- Main heading -->
 
@@ -349,7 +350,7 @@
             </p>
 
             <!-- CTA -->
-            <a target="_blank" href="https://sleepy-mcclintock-fef080.netlify.app/" class="btn btn-red btn-md" >Visit
+            <a target="_blank" href="https://sleepy-mcclintock-fef080.netlify.app/" class="btn btn-red btn-md">Visit
               Site
               <i class="fas fa-download ml-1"></i>
             </a>
@@ -374,7 +375,7 @@
           <div class="col-md-6 mb-4">
             <video width="450" src="images/chatavg.mp4" type="video/mp4" controls></video>
             <!-- <img src="images/chatavg.png" class="img-fluid z-depth-1-half" alt=""> -->
-            
+
 
           </div>
           <!--Grid column-->
@@ -517,14 +518,18 @@
 
             <!-- Main heading -->
             <h3 class="h3 mb-3">About Me</h3>
-            <p>I'm a native Atlantan with an entrepreneurial spirit. I have managed teams of 50+, I've worked as a listing broker for FMCC & FNMA, and I've owned my own successful businesses. Now, I'm excited to start a new chapter in technology! When I'm not working, I enjoy sports, lifting weights, and spending time with my wife and our 2 rottweilers, Heidi & Herschel.
+            <p>I'm a native Atlantan with an entrepreneurial spirit. I have managed teams of 50+, I've worked as a
+              listing broker for FMCC & FNMA, and I've owned my own successful businesses. Now, I'm excited to start a
+              new chapter in technology! When I'm not working, I enjoy sports, lifting weights, and spending time with
+              my wife and our 2 rottweilers, Heidi & Herschel.
             </p>
             <!-- Main heading -->
 
             <hr>
 
             <!-- CTA -->
-            <a target="_blank" href="https://www.linkedin.com/in/robert-l-kushner-iv-48284b45/" class="btn btn-red btn-md">LinkedIn
+            <a target="_blank" href="https://www.linkedin.com/in/robert-l-kushner-iv-48284b45/"
+              class="btn btn-red btn-md">LinkedIn
               <i class="fab fa-linkedin ml-1"></i>
             </a>
             <a target="_blank" href="https://github.com/thekushkode/" class="btn btn-red btn-md">GitHub
@@ -546,98 +551,98 @@
       <!--Section heading-->
       <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me</h2>
       <!--Section description-->
-      <p class="text-center w-responsive mx-auto mb-5" style="color: darkred">Do you have any questions? Please do not hesitate to
-          contact me directly!</p>
+      <p class="text-center w-responsive mx-auto mb-5" style="color: darkred">Do you have any questions? Please do not
+        hesitate to
+        contact me directly!</p>
 
       <div class="row">
 
-          <!--Grid column-->
-          <div class="col-md-9 mb-md-0 mb-5">
-              <form id="portfolio-contact" name="portfolio-contact" data-netlify="true" action="mail.php"
-                  method="POST">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+          <form id="portfolio-contact" name="portfolio-contact" data-netlify="true" action="mail.php" method="POST">
 
-                  <!--Grid row-->
-                  <div class="row">
+            <!--Grid row-->
+            <div class="row">
 
-                      <!--Grid column-->
-                      <div class="col-md-6">
-                          <div class="md-form mb-0">
-                              <input type="text" id="name" name="name" class="form-control">
-                              <label for="name" class="">Your name</label>
-                          </div>
-                      </div>
-                      <!--Grid column-->
-
-                      <!--Grid column-->
-                      <div class="col-md-6">
-                          <div class="md-form mb-0">
-                              <input type="text" id="email" name="email" class="form-control">
-                              <label for="email" class="">Your email</label>
-                          </div>
-                      </div>
-                      <!--Grid column-->
-
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-                      <div class="col-md-12">
-                          <div class="md-form mb-0">
-                              <input type="text" id="subject" name="subject" class="form-control">
-                              <label for="subject" class="">Subject</label>
-                          </div>
-                      </div>
-                  </div>
-                  <!--Grid row-->
-
-                  <!--Grid row-->
-                  <div class="row">
-
-                      <!--Grid column-->
-                      <div class="col-md-12">
-
-                          <div class="md-form">
-                              <textarea type="text" id="message" name="message" rows="2"
-                                  class="form-control md-textarea"></textarea>
-                              <label for="message">Your message</label>
-                          </div>
-
-                      </div>
-                  </div>
-                  <!--Grid row-->
-
-              </form>
-
-              <div class="text-center text-md-left">
-                  <a class="btn btn-red" button="submit"
-                      onclick="document.getElementById('portfolio-contact').submit();">Send</a>
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="name" name="name" class="form-control">
+                  <label for="name" class="">Your name</label>
+                </div>
               </div>
-              <div class="status"></div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input type="text" id="email" name="email" class="form-control">
+                  <label for="email" class="">Your email</label>
+                </div>
+              </div>
+              <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input type="text" id="subject" name="subject" class="form-control">
+                  <label for="subject" class="">Subject</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-md-12">
+
+                <div class="md-form">
+                  <textarea type="text" id="message" name="message" rows="2"
+                    class="form-control md-textarea"></textarea>
+                  <label for="message">Your message</label>
+                </div>
+
+              </div>
+            </div>
+            <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+            <a class="btn btn-red" button="submit"
+              onclick="document.getElementById('portfolio-contact').submit();">Send</a>
           </div>
-          <!--Grid column-->
+          <div class="status"></div>
+        </div>
+        <!--Grid column-->
 
-          <!--Grid column-->
-          <div class="col-md-3 text-center">
-              <ul class="list-unstyled mb-0" style="color: darkred">
-                  <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                      <p>Atlanta, GA 30339, USA</p>
-                  </li>
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0" style="color: darkred">
+            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Atlanta, GA 30339, USA</p>
+            </li>
 
-                  <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                      <p>404.697.3803</p>
-                  </li>
+            <li><i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>404.697.3803</p>
+            </li>
 
-                  <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                      <p>robertkushner4@gmail.com</p>
-                  </li>
-              </ul>
-          </div>
-          <!--Grid column-->
+            <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>robertkushner4@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
 
       </div>
 
-  </section>
+    </section>
   </main>
   <!--Main layout-->
 
